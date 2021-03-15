@@ -26,13 +26,13 @@
 		</div>
 
 	    <div class="nav bottom-nav">
-	    	<ul>
-		      <li><a class="nav-link" href="#edu">EDUCATION</a></li>
-		      <li><a class="nav-link" href="#proj">PROJECTS</a></li>
-		      <li><a class="nav-link" href="#lang">LANGUAGES</a></li>
-		      <li><a class="nav-link" href="#cert">CERTIFICATES</a></li>
-		      <li><a class="nav-link" href="#git">GET IN TOUCH</a></li>
-	 		</ul>
+            <ul>
+                <li><a class="nav-link" href="#proj">PROJECTS</a></li>
+                <li><a class="nav-link" href="#lang">LANGUAGES</a></li>
+                <li><a class="nav-link" href="#edu">TOP CLASSES</a></li>
+                <li><a class="nav-link" href="#resume">RESUME</a></li>
+                <li><a class="nav-link" href="#git">GET IN TOUCH</a></li>
+            </ul>
 	    </div>
 
   	</section>
@@ -40,50 +40,155 @@
   
 	<div class="page-container">
 		<button onclick="topFunction()" id="myBtn" title="Back To Top"><i class="fa fa-long-arrow-up"></i></button>
-		<div class="page one" id="edu">
+		<div class="page one" id="proj">
 
-			<section class="timeline">
-			  <ul>
-			    <li>
-			      <time class="right1">2019</time>
-			      <div>
-			         <b> SCHOOL: </b> University of California, Irvine <br>
-			         <b> DEGREE: </b> Bachelor of Science (B.S.) <br>
-			         <b> MAJOR: </b> Computer Science <br>
-			         <b> Expected Graduation: </b> December 2021
-			      </div>
-			    </li>
-			    <li>
-			      <time class="left">2016</time>
-			      <div>
-			         <b> SCHOOL: </b> Irvine Valley College <br>
-			         <b> DEGREE: </b> Associate of Science (A.S.) <br>
-			         <b> MAJORS: </b> Computer Science, Mathematics, Physics <br>
-			      </div>
-			    </li>
-			    <li>
-			      <time class="right2">2017</time> 
-			      <div>
-			         <b> SCHOOL: </b> Pace IIT & Medical (Mumbai) <br>
-			         <b> DEGREE: </b> High School Diploma <br>
-			         <b> MAJOR: </b> Pre-Engineering <br>
-			      </div>
-			    </li>
-			  </ul>
+			<!-- START PROJECTS SECTION -->
+
+			<section id="projects" class="projects-section">
+			
+				<div class="projects-grid">
+				<a
+					href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+					target="_blank"
+					class="project project-tile"
+				>
+					<img
+					class="project-image"
+					src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
+					alt="project"
+					/>
+					<p class="project-languages">C</p>
+					<p class="project-title">
+					Petr Chat
+					</p>
+					<p class="project-description">
+						A multi-threaded client-server networking application, that manages user logins and allows users to
+						chat with each other, privately or in chat rooms, in real time.
+					</p>
+				</a>
+				<a
+					href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+					target="_blank"
+					class="project project-tile"
+				>
+					<img
+					class="project-image"
+					src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
+					alt="project"
+					/>
+					<p class="project-languages">Python</p>
+					<p class="project-title">
+					Web Search Engine
+					</p>
+					<p class="project-description">
+						A complete search engine created from a static corpus of UCI's ICS webpages, in the form of an inverted
+						index, that ranks user queries based on cosine similarity and other weighted ranking algorithms.
+					</p>
+				</a>
+				<a
+					href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+					target="_blank"
+					class="project project-tile"
+				>
+					<img
+					class="project-image"
+					src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png"
+					alt="project"
+					/>
+					<p class="project-languages">Python, C, C++</p>
+					<p class="project-title">
+					TinyML
+					</p>
+					<p class="project-description">
+						Series of mini-projects to learn developing Machine Learning models with QAT, converting for portability 
+						and quantizing with TF-Lite, and deploying to embedded systems and 8-bit microcontrollers.
+					</p>
+				</a>
+				<a
+					href="https://codepen.io/freeCodeCamp/full/mVEJag"
+					target="_blank"
+					class="project project-tile"
+				>
+					<img
+					class="project-image"
+					src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg"
+					alt="project"
+					/>
+					<p class="project-languages">Python</p>
+					<p class="project-title">
+					Jim the Chatbot
+					</p>
+					<p class="project-description">
+						Jim is a CLI chatbot whose main goal is to formulate personalized workout plans for the day based on 
+						the difficulty level (easy, medium or hard) and duration of time the human would like to workout for.
+					</p>
+				</a>
+				<a
+					href="https://codepen.io/freeCodeCamp/full/wGqEga"
+					target="_blank"
+					class="project project-tile"
+				>
+					<img
+					class="project-image"
+					src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
+					alt="project"
+					/>
+					<p class="project-languages">C</p>
+					<p class="project-title">
+					Dynamic Memory Allocator
+					</p>
+					<p class="project-description">
+						Program that mimics the operations of a C-language dynamic memory allocator and virtual memory using
+						low-level system APIs, such as POSIX, to interface between user programs and the operating system.
+					</p>
+				</a>
+				<a
+					href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+					target="_blank"
+					class="project project-tile"
+				>
+					<img
+					class="project-image"
+					src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png"
+					alt="project"
+					/>
+					<p class="project-languages">Python, Go</p>
+					<p class="project-title">
+					Systerns (Sysdig)
+					</p>
+					<p class="project-description">
+						A data processing pipeline that collects system calls from the Linux kernel, performs pre-processing
+						and feeds into a model based on time-series forecasting and LSTM neural networks to identify and alert
+						users of malicious behavior.
+					</p>
+				</a>
+				</div>
+			
+				<!-- END PROJECTS SECTION -->
+
 			</section>
 
+			
+
 		</div>
-		<div class="page" id="proj">
+		<div class="page" id="lang">
 		  <h1></h1>
 		  <h3></h3>
 		</div>
-		<div class="page" id="lang">
+		<div class="page" id="edu">
 		  <h1>LANG</h1>
 		  <h3>something about react</h3>
 		</div>
-		<div class="page" id="cert">
-		  <h1>CERT</h1>
-		  <h3>something about angular</h3>
+		<div class="page" id="resume">
+			<div>
+				<object data='Sreenagesh_Tanya_Resume.pdf' type="application/pdf" width="700" height="800" >
+				  <iframe src='Sreenagesh_Tanya_Resume.pdf'>
+				  <p>Tanya Sreenagesh's Resume cannot be displayed on this browser! :(</p>
+				  </iframe>
+		  
+				</object>
+			  </div>
+			  <!--<img src="test.jpg" alt="Tanya Sreenagesh Resume" class="centerResume">-->
 		</div>
 		<div class="page" id="git">
 		  <h1>GIT</h1>

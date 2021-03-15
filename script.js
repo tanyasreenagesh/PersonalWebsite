@@ -1,8 +1,8 @@
 var main = document.querySelector('.main');
 var nav = document.querySelector('.nav');
-var right1 = document.querySelector('.right1');
+/*var right1 = document.querySelector('.right1');
 var right2 = document.querySelector('.right2');
-var left = document.querySelector('.left');
+var left = document.querySelector('.left');*/
 
 //Get the button:
 mybutton = document.getElementById("myBtn");
@@ -31,14 +31,14 @@ window.onscroll = function()
   }
 }
 
-function updateScroll()
+/*function updateScroll()
 {
   right1.classList.add('fade-in');
   right2.classList.add('fade-in');
   left.classList.add('fade-in');
 }
 
-window.addEventListener('scroll', updateScroll)
+window.addEventListener('scroll', updateScroll)*/
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() 
